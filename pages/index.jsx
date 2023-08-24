@@ -38,23 +38,7 @@ export default function Home() {
             <a className="block mt-4 rounded-lg px-4 py-3 bg-blue-400 hover:bg-blue-600 text-white font-semibold tracking-wide">Example</a>
           </Link>
         </div>
-        <div className="flex flex-col rounded-lg justify-between border border-2 border-gray-300 rounded-lg p-4 w-[30%]">
-          <h3 className="text-lg font-bold mb-2">Client + Server Side Rendering</h3>
-          <p className="my-2">
-            This option uses server side rendering for the initial page load and client side rendering for the subsequent requests.
-          </p>
-          <p className="my-2">
-            It utilizes the appropriate Constructor.io client library depending on the context.
-          </p>
-          <p className="my-2">
-            <a className="text-blue-600" href="https://www.npmjs.com/package/@constructor-io/constructorio-client-javascript" rel="noreferrer" target="_blank">constructorio-client-javascript</a>
-            <br />
-            <a className="text-blue-600" href="https://www.npmjs.com/package/@constructor-io/constructorio-node" rel="noreferrer" target="_blank">constructorio-node</a>
-          </p>
-          <Link href="/client-and-server-side">
-            <a className="block mt-4 rounded-lg px-4 py-3 bg-blue-400 hover:bg-blue-600 text-white font-semibold tracking-wide">Example</a>
-          </Link>
-        </div>
+        
       </div>
     </div>
   )

@@ -11,7 +11,7 @@ export default function ClientSide() {
   useEffect(() => {
     const fetchResultsFromAPI = async () => {
       const data = await cioClient.search.getSearchResults(query.q, {
-        resultsPerPage: 40
+        resultsPerPage: query.resultsPerPage
       });
       setResults(data?.response?.results);
     };
