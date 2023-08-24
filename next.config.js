@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: [ "constructorio-integrations.s3.amazonaws.com" ]
+    domains: [ "dev02-web-michaelhill.demandware.net" ]
   }
 }
 

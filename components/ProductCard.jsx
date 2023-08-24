@@ -14,7 +14,8 @@ function ProductCard({ product }) {
       <div className="mb-1 h-[225px]">
         <Image
           className={ imageTagClassesLoading }
-          src={ product.data.image_url }
+          src={ `https://dev02-web-michaelhill.demandware.net${product.data.image_url}` }
+          // src={ product.data.image_url }
           alt={ product.value }
           onError={ (event) => { event.target.style.display = 'none'; } }
           onLoad={ (event) => { event.target.className = imageTagClassesLoaded; } }

@@ -25,8 +25,8 @@ export const fetchResultsServerSide = (context) => {
     clientId: ConstructorioID_client_id,
     userIp,
     userAgent,
+    resultsPerPage: 40,
   };
-
-  return cioNode.search.getSearchResults('shoes', userParameters);
+  return cioNode.search.getSearchResults(context.query.q, userParameters);
 }
 
