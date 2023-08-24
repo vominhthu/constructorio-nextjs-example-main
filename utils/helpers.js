@@ -27,6 +27,7 @@ export const fetchResultsServerSide = (context) => {
     userAgent,
     resultsPerPage: context.query.resultsPerPage,
   };
+  
   return cioNode.search.getSearchResults(context.query.q, userParameters);
 }
 
